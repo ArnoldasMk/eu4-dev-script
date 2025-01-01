@@ -63,7 +63,7 @@ click_and_delay() {
 double_click_sort() {
   xdotool mousemove "$DOUBLE_CLICK_X" "$DOUBLE_CLICK_Y"
   xdotool click 1
-  sleep 1
+  sleep 0.5
   xdotool click 1
   sleep "$DELAY"
 }
