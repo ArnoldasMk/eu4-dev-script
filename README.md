@@ -27,12 +27,12 @@ git clone https://github.com/ArnoldasMk/eu4-dev-script
 
 ```bash
 cd eu4-dev-script
-chmod +x eu4-dev-script.sh
+chmod +x run.sh
 ```
 
 ## Run the Script
 ```bash
-./eu4-dev-script.sh
+./run.sh
 ```
 ## Note on Late Game Performance / Slowers PC's
 Since EU4 is an unoptimized game, running this script during the late game may prioritize developing the most developed provinces instead of the least. This occurs because the script cannot resort provinces by development due to lag
