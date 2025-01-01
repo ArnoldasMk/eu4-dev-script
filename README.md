@@ -39,7 +39,7 @@ Since EU4 is an unoptimized game, running this script during the late game may p
 
 If this does happen, adjust 66 line:
 ```bash
-sleep 1
+sleep 0.5
 ```
 To something like this:
 ```bash
